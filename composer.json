@@ -1,0 +1,39 @@
+{
+	"name": "proginow/string",
+	"description": "Proginow Framework String Library,String And Validation For PHP.",
+	"type": "library",
+	"license": "MIT",
+	"keywords": ["string", "char"],
+	"require": {
+	  "php": ">=8.2.0",
+	  "jasonlam604/stringizer": "*",
+	  "proginow/base64": "*"
+	},
+	"authors": [
+	  {
+		"name": "Proginow",
+		"email": "info@proginow.com",
+		"homepage": "https://proginow.com",
+		"role": "Developer"
+	  }
+	],
+	"repositories": [
+	  {
+		  "type": "vcs",
+		  "url": "https://github.com/proginow/string"
+	  }
+	],
+	"support": {
+		  "email": "info@proginow.com"
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+	  "psr-4": {
+		"Proginow\\String\\": "/"
+	  },
+	  "files": [
+		"loader.php"
+	  ]
+	}
+}
